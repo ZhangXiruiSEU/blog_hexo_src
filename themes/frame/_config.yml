@@ -11,11 +11,11 @@ logo_image:
 
 menu:
   主页: /
-  全部档案: /archives/
-  Gallery: /categories/gallery/
+  #Gallery: /categories/gallery/
   技术类: /categories/tech/
   文史哲: /categories/arts/
   随便写写: /categories/self/
+  全部档案: /archives/
   ABOUT: /source/
  
 
@@ -35,13 +35,14 @@ date_format: MMM D, YYYY
 # profile
 profile:
   title: 张熙睿的个人博客 
-  body: 专业理工科，爱好文史哲。希望成为专业文史哲爱好理工科的人！
+  body: 专业理工科，爱好文史哲。
+  #希望成为专业文史哲爱好理工科的人！
   image: /selfie.png
 
   links:
-    Home: /
-    Blogs: /archives/
-    个人简介: /whatever/
+    主页: /
+    全部档案: /archives/
+    ABOUT: /whatever/
 
 # footer
 footer:
@@ -50,11 +51,11 @@ footer:
     author: 张熙睿
 
   powered_by: # Powered by Hexo & Frame
-    enable: false
+    enable: true
 
   other_info:
-    enable: false
-    content:
+    enable: true
+    content: other_info 
 
 # color mode: default / classic / dark
 color_mode: default
